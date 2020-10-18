@@ -3,14 +3,14 @@
 Projektna naloga z naslovom "Analiza putk" za predmet Programiranje 1 v 2. letniku študija matematike na FMF.
 
 ## Podatki:
-Analizirala bom podatke o kokošjih vrstah, njihovih lastnostih in priljubljenosti. Te podatke bom zajela s spletne strani [BackYard Chickens](https://www.backyardchickens.com/reviews/categories/chicken-breeds.2/) .
+Analizirala bom podatke o kokošjih vrstah, njihovih lastnostih in priljubljenosti. Te podatke bom zajela s spletne strani [BackYard Chickens](https://www.backyardchickens.com/reviews/categories/chicken-breeds.2/).
 
 Za vsako kokošjo vrsto bom zajela:
 - ime vrste;
 - oceno, število ocen in število ogledov vrste;
 - namen vzreje vrste;
 - velikost in barvo jajc;
-- temberament, velikost in barvo vrste;
+- temperament, velikost in barvo vrste;
 - obliko grebena;
 - opis.
 
