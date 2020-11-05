@@ -4,6 +4,7 @@ import string
 import orodja
 import urejanje
 
+#Vzorec bloka za posamezno kokos
 vzorec_bloka = re.compile(
     r'<div\sclass="structItem structItem--item\s.*?js-inlineModContainer\sjs-itemListItem-.*?>'
     r'.*?'
@@ -62,6 +63,7 @@ vzorec_ratings = re.compile(
 
 
 def izloci_podatke_putke(blok):
+    '''Funkcija iz bloga izlušči podatke o kokoši.'''
     putka = re.search(vzorec_putke, blok).groupdict()
     vrsta = string.capwords(putka['breed'].strip().replace('?','').replace('&#039;', '\' ' ).replace('&quot;',''))
     ok_vrsta = odstrani_reci_v_oklepajih(vrsta)
@@ -225,7 +227,6 @@ vzorec_number_of_views = re.compile(
 )
 
 
-
 def podrobno_poglej_putko(vrsta):
     putka = {}
     with open(f'zajete-putke-po-vrstah\\{vrsta}.html', 'r', encoding='utf-8') as d:
@@ -341,6 +342,7 @@ def merge_two_dicts(x, y):
     z.update(y)    # modifies z with y's keys and values & returns None
     return z
 
+###
 
 def izloci_gnezdene_podatke(putke):
     egg_colour, temperament, breed_colour = [], [], []
@@ -363,11 +365,9 @@ def izloci_gnezdene_podatke(putke):
         else:
             for barva in putka.pop('breed colours'):
                 breed_colour.append({'breed': putka['breed'], 'breed colour': barva})
-    
     egg_colour.sort(key=lambda putka: (putka['breed'], putka['egg colour']))
     temperament.sort(key=lambda putka: (putka['breed'], putka['temperament']))
     breed_colour.sort(key=lambda putka: (putka['breed'], putka['breed colour']))
-
     return egg_colour, temperament, breed_colour
 
   
