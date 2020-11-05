@@ -63,7 +63,6 @@ def uredi_broodiness(broodiness):
         broody = 'rare'
     return broody
 
-
 def uredi_egg_productivity(egg_productivity):
     eggs = []
     if any(beseda in egg_productivity for beseda in ['excellent', 'good', 'high']):
@@ -102,7 +101,10 @@ def uredi_egg_colour(egg_colour):
         colour.append('olive')
     if 'pink' in egg_colour:
         colour.append('pink')
-    return vrni_pravilno(colour)
+    if len(colour) == 0:
+        return None
+    else: 
+        return colour
 
 def uredi_temperament(temperament):
     temp = []
@@ -112,11 +114,14 @@ def uredi_temperament(temperament):
         temp.append('lively')
     if any(beseda in temperament for beseda in ['calm', 'shy', 'quiet']):
         temp.append('calm')
-    if any(beseda in temperament for beseda in ['docile', 'easily', 'handle']):
+    if any(beseda in temperament for beseda in ['docile', 'easily', 'confinement' 'handle']):
         temp.append('docile')
     if any(beseda in temperament for beseda in ['good', 'kind', 'friend']):
         temp.append('friendly')
-    return vrni_pravilno(temp)
+    if len(temp) == 0:
+        return None
+    else: 
+        return temp
 
 def uredi_breed_colour(breed_colour):
     colour = []
@@ -130,6 +135,8 @@ def uredi_breed_colour(breed_colour):
         colour.append('blue')
     if 'silver' in breed_colour:
         colour.append('silver')
+    if 'grey' in breed_colour:
+        colour.append('grey')
     if 'cuckoo' in breed_colour:
         colour.append('black')
         colour.append('white')
@@ -147,7 +154,10 @@ def uredi_breed_colour(breed_colour):
         colour.append('salmon')
     if 'any' in breed_colour or 'variety' in breed_colour:
         colour.append('any')
-    return vrni_pravilno(colour)
+    if len(colour) == 0:
+        return None
+    else: 
+        return colour
 
 def uredi_breed_size(breed_size):
     size = []
@@ -163,7 +173,7 @@ def uredi_climate_tolerance(tolerance):
     tol = []
     if any(beseda in tolerance for beseda in ['all', 'average', 'depend','fair', 'good', 'most']):
         tol.append('any')
-    if 'hard' in tolerance:
+    elif 'hard' in tolerance:
         if (beseda in tolerance for beseda in ['heat', 'hot']):
             tol.append('colder better')
         elif 'cold' in tolerance:
