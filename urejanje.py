@@ -151,11 +151,11 @@ def uredi_breed_colour(breed_colour):
 
 def uredi_breed_size(breed_size):
     size = []
-    if any(beseda in breed_size for beseda in ['bantam', 'small']):
-        size.append('small')
     if any(beseda in breed_size for beseda in ['heavy', 'large']):
         size.append('large')
-    if any(beseda in breed_size for beseda in ['medium', 'any']):
+    elif any(beseda in breed_size for beseda in ['bantam', 'small']):
+        size.append('small')
+    elif any(beseda in breed_size for beseda in ['medium', 'any']):
         size.append('medium')
     return vrni_pravilno(size)
 
