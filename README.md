@@ -23,3 +23,6 @@ Hipoteze bom razdelila glede to, ali se nanašajo na kokoši same (torej na last
 - Ornamentalne kokoši ležejo manjša jajca in to počnejo redkeje.
 - Kokoši, ki jih vzrejajo tako za meso kot tudi za jajca, so večje od tistih, ki jih vzrejajo le za jajca.
 - Večina kokoši ima greben v obliki lista. 
+
+[<img src="https://www.backyardchickens.com/reviews/sebright.10870/cover-image">](https://www.backyardchickens.com/)
+
