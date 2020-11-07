@@ -7,8 +7,13 @@
         "number of comments": 11,
         "number of reviews": 4,
         "number of views": 16334,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "warmer better",
         "egg productivity": "high",
@@ -28,27 +33,27 @@
         "number of comments": 1,
         "number of reviews": null,
         "number of views": 6471,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": null,
-        "egg productivity": [
-            "high",
-            "medium"
-        ],
+        "egg productivity": "high",
         "egg size": "medium",
         "egg colour": [
-            "white",
-            "pink"
+            "pink",
+            "white"
         ],
         "breed temperament": [
             "calm"
         ],
         "breed colours": [
+            "black",
             "red",
-            "white",
-            "black",
-            "black",
             "white"
         ],
         "breed size": "medium"
@@ -61,8 +66,12 @@
         "number of comments": 15,
         "number of reviews": 11,
         "number of views": 21612,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -74,6 +83,7 @@
             "docile"
         ],
         "breed colours": [
+            "gold",
             "white"
         ],
         "breed size": "large"
@@ -86,8 +96,13 @@
         "number of comments": 7,
         "number of reviews": 7,
         "number of views": 18679,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -111,8 +126,13 @@
         "number of comments": 343,
         "number of reviews": 256,
         "number of views": 170825,
-        "breed purpose": "dual purpose",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -128,12 +148,15 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
             "blue",
+            "brown",
+            "gold",
+            "lavender",
+            "red",
+            "salmon",
             "silver",
-            "salmon"
+            "white"
         ],
         "breed size": "large"
     },
@@ -145,8 +168,13 @@
         "number of comments": 18,
         "number of reviews": 1,
         "number of views": 10707,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "poor",
         "climate tolerance": "warmer better",
         "egg productivity": "high",
@@ -158,9 +186,9 @@
             "agressive"
         ],
         "breed colours": [
-            "white",
             "black",
-            "blue"
+            "blue",
+            "white"
         ],
         "breed size": "large"
     },
@@ -172,8 +200,12 @@
         "number of comments": 33,
         "number of reviews": 26,
         "number of views": 40903,
-        "breed purpose": "ornamental",
-        "comb": "pea",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -198,7 +230,9 @@
         "number of comments": 28,
         "number of reviews": 15,
         "number of views": 15071,
-        "breed purpose": "ornamental",
+        "breed purpose": [
+            "ornamental"
+        ],
         "comb": null,
         "broodiness": "frequent",
         "climate tolerance": null,
@@ -219,8 +253,12 @@
         "number of comments": 43,
         "number of reviews": 37,
         "number of views": 33178,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -244,8 +282,12 @@
         "number of comments": 54,
         "number of reviews": 53,
         "number of views": 44719,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -271,8 +313,12 @@
         "number of comments": 33,
         "number of reviews": 23,
         "number of views": 37955,
-        "breed purpose": "ornamental",
-        "comb": "v-shaped",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "v-shaped"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -284,8 +330,9 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
             "black",
+            "gold",
+            "red",
             "silver"
         ],
         "breed size": "large"
@@ -298,8 +345,13 @@
         "number of comments": 2,
         "number of reviews": 1,
         "number of views": 3946,
-        "breed purpose": "dual purpose",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -313,11 +365,12 @@
             "docile"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
             "blue",
-            "silver"
+            "gold",
+            "red",
+            "silver",
+            "white"
         ],
         "breed size": "large"
     },
@@ -329,8 +382,13 @@
         "number of comments": 58,
         "number of reviews": 37,
         "number of views": 66227,
-        "breed purpose": "dual purpose",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -345,9 +403,6 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
-            "black",
-            "silver",
             "any"
         ],
         "breed size": "large"
@@ -360,8 +415,12 @@
         "number of comments": 25,
         "number of reviews": 11,
         "number of views": 19888,
-        "breed purpose": "ornamental",
-        "comb": "pea",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "low",
@@ -374,10 +433,10 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
             "blue",
+            "red",
+            "white",
             "brown"
         ],
         "breed size": "large"
@@ -390,8 +449,13 @@
         "number of comments": 499,
         "number of reviews": 355,
         "number of views": 172183,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -405,9 +469,10 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
             "black",
-            "blue"
+            "blue",
+            "tan",
+            "white"
         ],
         "breed size": "large"
     },
@@ -419,8 +484,12 @@
         "number of comments": 19,
         "number of reviews": 9,
         "number of views": 19001,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "poor",
         "climate tolerance": "any",
         "egg productivity": null,
@@ -443,11 +512,11 @@
         "number of comments": null,
         "number of reviews": 5,
         "number of views": 3366,
-        "breed purpose": "pet",
+        "breed purpose": [
+            "pet"
+        ],
         "comb": [
-            "any",
-            "rose",
-            "walnut"
+            "any"
         ],
         "broodiness": "frequent",
         "climate tolerance": "warmer better",
@@ -459,8 +528,8 @@
         ],
         "breed temperament": null,
         "breed colours": [
-            "white",
-            "blue"
+            "blue",
+            "white"
         ],
         "breed size": "small"
     },
@@ -491,8 +560,13 @@
         "number of comments": 1,
         "number of reviews": null,
         "number of views": 604,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "colder better",
         "egg productivity": "high",
@@ -505,9 +579,9 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
             "black",
-            "blue"
+            "blue",
+            "white"
         ],
         "breed size": "small"
     },
@@ -519,8 +593,12 @@
         "number of comments": 6,
         "number of reviews": 4,
         "number of views": 10922,
-        "breed purpose": "ornamental",
-        "comb": "rose",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "rose"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -532,8 +610,8 @@
             "docile"
         ],
         "breed colours": [
-            "white",
-            "black"
+            "black",
+            "white"
         ],
         "breed size": "small"
     },
@@ -564,8 +642,13 @@
         "number of comments": 38,
         "number of reviews": 49,
         "number of views": 59615,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -590,8 +673,13 @@
         "number of comments": 2,
         "number of reviews": 1,
         "number of views": 1561,
-        "breed purpose": "dual purpose",
-        "comb": "any",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "any"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": null,
@@ -611,8 +699,13 @@
         "number of comments": 400,
         "number of reviews": 234,
         "number of views": 171968,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -624,9 +717,9 @@
             "friendly"
         ],
         "breed colours": [
+            "black",
             "red",
-            "white",
-            "black"
+            "white"
         ],
         "breed size": "large"
     },
@@ -657,8 +750,12 @@
         "number of comments": 12,
         "number of reviews": 25,
         "number of views": 28687,
-        "breed purpose": "ornamental",
-        "comb": "rose",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "rose"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -671,12 +768,10 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
             "black",
             "blue",
-            "black",
-            "white",
-            "porcelain"
+            "porcelain",
+            "white"
         ],
         "breed size": "small"
     },
@@ -688,8 +783,12 @@
         "number of comments": 53,
         "number of reviews": 77,
         "number of views": 195823,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -704,10 +803,11 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
             "black",
             "blue",
-            "porcelain"
+            "gold",
+            "porcelain",
+            "white"
         ],
         "breed size": "small"
     },
@@ -738,8 +838,13 @@
         "number of comments": 25,
         "number of reviews": 15,
         "number of views": 76140,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "colder better",
         "egg productivity": "high",
@@ -748,6 +853,7 @@
             "brown"
         ],
         "breed temperament": [
+            "docile",
             "friendly"
         ],
         "breed colours": [
@@ -765,8 +871,13 @@
         "number of comments": 140,
         "number of reviews": 91,
         "number of views": 181892,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
@@ -811,8 +922,12 @@
         "number of comments": 9,
         "number of reviews": 10,
         "number of views": 7369,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "warmer better",
         "egg productivity": "medium",
@@ -827,9 +942,9 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
             "black",
-            "porcelain"
+            "porcelain",
+            "white"
         ],
         "breed size": "small"
     },
@@ -841,8 +956,12 @@
         "number of comments": 23,
         "number of reviews": 12,
         "number of views": 38842,
-        "breed purpose": "ornamental",
-        "comb": "v-shaped",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "v-shaped"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -856,14 +975,14 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
             "black",
             "blue",
+            "cream",
+            "gold",
+            "lavender",
             "silver",
-            "black",
             "white",
-            "yellow",
-            "cream"
+            "yellow"
         ],
         "breed size": "large"
     },
@@ -875,8 +994,13 @@
         "number of comments": 197,
         "number of reviews": 157,
         "number of views": 97886,
-        "breed purpose": "dual purpose",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -890,9 +1014,10 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
             "black",
             "blue",
+            "gold",
+            "white",
             "brown"
         ],
         "breed size": "large"
@@ -905,8 +1030,13 @@
         "number of comments": 18,
         "number of reviews": 28,
         "number of views": 29177,
-        "breed purpose": "dual purpose",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
@@ -932,7 +1062,10 @@
         "number of comments": 12,
         "number of reviews": 6,
         "number of views": 10095,
-        "breed purpose": "dual purpose",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
         "comb": null,
         "broodiness": null,
         "climate tolerance": null,
@@ -956,8 +1089,12 @@
         "number of comments": 9,
         "number of reviews": 2,
         "number of views": 9512,
-        "breed purpose": "ornamental",
-        "comb": "pea",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -969,12 +1106,12 @@
             "docile"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
             "blue",
+            "gold",
+            "lavender",
+            "red",
             "silver",
-            "black",
             "white"
         ],
         "breed size": "large"
@@ -987,22 +1124,24 @@
         "number of comments": null,
         "number of reviews": null,
         "number of views": 1413,
-        "breed purpose": "dual purpose",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
         "comb": null,
         "broodiness": null,
         "climate tolerance": null,
         "egg productivity": null,
-        "egg size": [
-            "large",
-            "medium"
-        ],
+        "egg size": "large",
         "egg colour": [
             "white"
         ],
         "breed temperament": null,
         "breed colours": [
-            "red",
-            "orange"
+            "brown",
+            "gold",
+            "orange",
+            "red"
         ],
         "breed size": "medium"
     },
@@ -1014,8 +1153,13 @@
         "number of comments": 70,
         "number of reviews": 33,
         "number of views": 47271,
-        "breed purpose": "dual purpose",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
@@ -1039,12 +1183,15 @@
         "number of reviews": 1,
         "number of views": 1602,
         "breed purpose": null,
-        "comb": "single",
+        "comb": [
+            "single"
+        ],
         "broodiness": null,
         "climate tolerance": "any",
         "egg productivity": "low",
         "egg size": "small",
         "egg colour": [
+            "peach",
             "white"
         ],
         "breed temperament": null,
@@ -1059,8 +1206,12 @@
         "number of comments": 8,
         "number of reviews": null,
         "number of views": 3258,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": null,
         "climate tolerance": null,
         "egg productivity": "high",
@@ -1086,7 +1237,9 @@
         "number of reviews": 2,
         "number of views": 1921,
         "breed purpose": null,
-        "comb": "pea",
+        "comb": [
+            "pea"
+        ],
         "broodiness": null,
         "climate tolerance": null,
         "egg productivity": "high",
@@ -1096,8 +1249,8 @@
         ],
         "breed temperament": null,
         "breed colours": [
-            "red",
-            "black"
+            "black",
+            "red"
         ],
         "breed size": "large"
     },
@@ -1110,7 +1263,9 @@
         "number of reviews": 2,
         "number of views": 2848,
         "breed purpose": null,
-        "comb": "rose",
+        "comb": [
+            "rose"
+        ],
         "broodiness": null,
         "climate tolerance": null,
         "egg productivity": "high",
@@ -1130,8 +1285,13 @@
         "number of comments": 30,
         "number of reviews": 9,
         "number of views": 32230,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -1156,8 +1316,12 @@
         "number of comments": 6,
         "number of reviews": 24,
         "number of views": 24329,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -1170,6 +1334,7 @@
             "friendly"
         ],
         "breed colours": [
+            "gold",
             "silver"
         ],
         "breed size": "large"
@@ -1182,8 +1347,12 @@
         "number of comments": 1,
         "number of reviews": 1,
         "number of views": 8538,
-        "breed purpose": "ornamental",
-        "comb": "pea",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "rare",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
@@ -1205,8 +1374,13 @@
         "number of comments": 8,
         "number of reviews": 2,
         "number of views": 11047,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "warmer better",
         "egg productivity": "medium",
@@ -1231,8 +1405,13 @@
         "number of comments": 61,
         "number of reviews": 19,
         "number of views": 43630,
-        "breed purpose": "dual purpose",
-        "comb": "cushion",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "cushion"
+        ],
         "broodiness": "average",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
@@ -1257,7 +1436,9 @@
         "number of comments": 6,
         "number of reviews": 7,
         "number of views": 5832,
-        "breed purpose": "ornamental",
+        "breed purpose": [
+            "ornamental"
+        ],
         "comb": null,
         "broodiness": "rare",
         "climate tolerance": "any",
@@ -1270,9 +1451,9 @@
             "calm"
         ],
         "breed colours": [
-            "white",
             "black",
-            "silver"
+            "silver",
+            "white"
         ],
         "breed size": "small"
     },
@@ -1284,8 +1465,12 @@
         "number of comments": 99,
         "number of reviews": 179,
         "number of views": 83942,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "colder better",
         "egg productivity": "low",
@@ -1299,10 +1484,10 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
-            "blue"
+            "blue",
+            "red",
+            "white"
         ],
         "breed size": "large"
     },
@@ -1333,8 +1518,13 @@
         "number of comments": 2,
         "number of reviews": 1,
         "number of views": 6372,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -1346,7 +1536,8 @@
             "docile"
         ],
         "breed colours": [
-            "black"
+            "black",
+            "brown"
         ],
         "breed size": "large"
     },
@@ -1358,8 +1549,12 @@
         "number of comments": 36,
         "number of reviews": 24,
         "number of views": 24937,
-        "breed purpose": "meat",
-        "comb": "pea",
+        "breed purpose": [
+            "meat"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -1372,9 +1567,9 @@
             "friendly"
         ],
         "breed colours": [
+            "blue",
             "red",
             "white",
-            "blue",
             "brown"
         ],
         "breed size": "large"
@@ -1387,8 +1582,12 @@
         "number of comments": 6,
         "number of reviews": 5,
         "number of views": 14879,
-        "breed purpose": "meat",
-        "comb": "pea",
+        "breed purpose": [
+            "meat"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "low",
@@ -1417,8 +1616,12 @@
         "number of comments": 63,
         "number of reviews": 36,
         "number of views": 46097,
-        "breed purpose": "meat",
-        "comb": "pea",
+        "breed purpose": [
+            "meat"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "low",
@@ -1442,7 +1645,9 @@
         "number of comments": 1,
         "number of reviews": null,
         "number of views": 1647,
-        "breed purpose": "eggs",
+        "breed purpose": [
+            "eggs"
+        ],
         "comb": null,
         "broodiness": null,
         "climate tolerance": null,
@@ -1451,8 +1656,8 @@
         "egg colour": null,
         "breed temperament": null,
         "breed colours": [
-            "white",
-            "black"
+            "black",
+            "white"
         ],
         "breed size": null
     },
@@ -1464,8 +1669,13 @@
         "number of comments": 22,
         "number of reviews": 15,
         "number of views": 20782,
-        "breed purpose": "dual purpose",
-        "comb": "v-shaped",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "v-shaped"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "low",
@@ -1492,8 +1702,12 @@
         "number of comments": 5,
         "number of reviews": 11,
         "number of views": 15474,
-        "breed purpose": "ornamental",
-        "comb": "pea",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -1507,9 +1721,9 @@
             "friendly"
         ],
         "breed colours": [
+            "black",
             "red",
-            "white",
-            "black"
+            "white"
         ],
         "breed size": "large"
     },
@@ -1521,8 +1735,13 @@
         "number of comments": 1,
         "number of reviews": null,
         "number of views": 2553,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
@@ -1549,8 +1768,13 @@
         "number of comments": 75,
         "number of reviews": 77,
         "number of views": 71443,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -1564,8 +1788,6 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "silver",
             "any"
         ],
         "breed size": "large"
@@ -1578,8 +1800,13 @@
         "number of comments": 5,
         "number of reviews": 2,
         "number of views": 21842,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -1604,8 +1831,13 @@
         "number of comments": null,
         "number of reviews": 1,
         "number of views": 2511,
-        "breed purpose": "dual purpose",
-        "comb": "rose",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "rose"
+        ],
         "broodiness": null,
         "climate tolerance": "colder better",
         "egg productivity": null,
@@ -1625,8 +1857,13 @@
         "number of comments": 80,
         "number of reviews": 63,
         "number of views": 66205,
-        "breed purpose": "dual purpose",
-        "comb": "rose",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "rose"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -1640,9 +1877,7 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
-            "black"
+            "any"
         ],
         "breed size": "large"
     },
@@ -1654,8 +1889,13 @@
         "number of comments": 19,
         "number of reviews": 20,
         "number of views": 44982,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -1668,11 +1908,11 @@
             "friendly"
         ],
         "breed colours": [
+            "gray",
             "red",
-            "white",
             "silver",
-            "black",
-            "white"
+            "white",
+            "black"
         ],
         "breed size": "large"
     },
@@ -1684,8 +1924,12 @@
         "number of comments": 12,
         "number of reviews": 15,
         "number of views": 10549,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -1699,13 +1943,34 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
             "black",
             "blue",
+            "brown",
+            "cream",
+            "lavender",
             "silver",
-            "cream"
+            "white"
         ],
         "breed size": "small"
+    },
+    {
+        "link": "https://www.backyardchickens.com/reviews/east-frisian-gull-an-old-world-landrace.11745/",
+        "breed": "East Frisian Gull - An Old World Landrace",
+        "mark": 5.0,
+        "number of ratings": 3,
+        "number of comments": 4,
+        "number of reviews": 2,
+        "number of views": 7758,
+        "breed purpose": null,
+        "comb": null,
+        "broodiness": null,
+        "climate tolerance": null,
+        "egg productivity": null,
+        "egg size": null,
+        "egg colour": null,
+        "breed temperament": null,
+        "breed colours": null,
+        "breed size": null
     },
     {
         "link": "https://www.backyardchickens.com/reviews/easter-egger-bantam.11747/",
@@ -1715,16 +1980,21 @@
         "number of comments": 3,
         "number of reviews": 4,
         "number of views": 14084,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
         "egg size": "small",
         "egg colour": [
             "blue",
-            "green",
             "cream",
+            "green",
             "pink"
         ],
         "breed temperament": [
@@ -1743,8 +2013,12 @@
         "number of comments": 530,
         "number of reviews": 378,
         "number of views": 152566,
-        "breed purpose": "eggs",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -1790,8 +2064,12 @@
         "number of comments": 10,
         "number of reviews": 2,
         "number of views": 6771,
-        "breed purpose": "ornamental",
-        "comb": "pea",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "rare",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
@@ -1813,8 +2091,13 @@
         "number of comments": 61,
         "number of reviews": 60,
         "number of views": 54086,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -1828,12 +2111,6 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
-            "black",
-            "blue",
-            "black",
-            "white",
-            "salmon",
             "any"
         ],
         "breed size": "large"
@@ -1846,8 +2123,12 @@
         "number of comments": 7,
         "number of reviews": 22,
         "number of views": 11401,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "warmer better",
         "egg productivity": "low",
@@ -1859,8 +2140,6 @@
             "agressive"
         ],
         "breed colours": [
-            "black",
-            "silver",
             "any"
         ],
         "breed size": "large"
@@ -1873,7 +2152,9 @@
         "number of comments": 7,
         "number of reviews": 4,
         "number of views": 8107,
-        "breed purpose": "ornamental",
+        "breed purpose": [
+            "ornamental"
+        ],
         "comb": null,
         "broodiness": null,
         "climate tolerance": "colder better",
@@ -1913,8 +2194,13 @@
         "number of comments": 31,
         "number of reviews": 33,
         "number of views": 26831,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -1940,8 +2226,13 @@
         "number of comments": 1,
         "number of reviews": 1,
         "number of views": 8029,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -1963,8 +2254,13 @@
         "number of comments": 8,
         "number of reviews": 2,
         "number of views": 22806,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -2026,8 +2322,12 @@
         "number of comments": 17,
         "number of reviews": 6,
         "number of views": 16898,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -2049,8 +2349,12 @@
         "number of comments": null,
         "number of reviews": 3,
         "number of views": 3380,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "poor",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -2072,8 +2376,12 @@
         "number of comments": 7,
         "number of reviews": 3,
         "number of views": 10099,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "warmer better",
         "egg productivity": null,
@@ -2119,8 +2427,12 @@
         "number of comments": 107,
         "number of reviews": 78,
         "number of views": 149149,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "colder better",
         "egg productivity": "high",
@@ -2159,8 +2471,12 @@
         "number of comments": 1,
         "number of reviews": null,
         "number of views": 787,
-        "breed purpose": "eggs",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": null,
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -2185,8 +2501,12 @@
         "number of comments": 18,
         "number of reviews": 31,
         "number of views": 20873,
-        "breed purpose": "ornamental",
-        "comb": "rose",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "rose"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -2198,9 +2518,10 @@
             "agressive"
         ],
         "breed colours": [
-            "white",
             "black",
-            "silver"
+            "gold",
+            "silver",
+            "white"
         ],
         "breed size": "large"
     },
@@ -2212,7 +2533,9 @@
         "number of comments": null,
         "number of reviews": 1,
         "number of views": 16850,
-        "breed purpose": "meat",
+        "breed purpose": [
+            "meat"
+        ],
         "comb": [
             "pea",
             "single"
@@ -2220,17 +2543,15 @@
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "low",
-        "egg size": [
-            "medium",
-            "small"
-        ],
+        "egg size": "medium",
         "egg colour": [
             "cream",
             "white"
         ],
         "breed temperament": [
             "lively",
-            "calm"
+            "calm",
+            "docile"
         ],
         "breed colours": [
             "any"
@@ -2245,8 +2566,13 @@
         "number of comments": 12,
         "number of reviews": 6,
         "number of views": 9975,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -2273,8 +2599,12 @@
         "number of comments": 12,
         "number of reviews": 15,
         "number of views": 18882,
-        "breed purpose": "ornamental",
-        "comb": "v-shaped",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "v-shaped"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -2299,7 +2629,9 @@
         "number of reviews": null,
         "number of views": 199,
         "breed purpose": null,
-        "comb": "single",
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": null,
         "egg productivity": "high",
@@ -2323,8 +2655,13 @@
         "number of comments": 20,
         "number of reviews": 16,
         "number of views": 23995,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -2348,8 +2685,13 @@
         "number of comments": 8,
         "number of reviews": 11,
         "number of views": 11393,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -2373,8 +2715,13 @@
         "number of comments": 3,
         "number of reviews": 1,
         "number of views": 4777,
-        "breed purpose": "dual purpose",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -2398,8 +2745,12 @@
         "number of comments": 26,
         "number of reviews": 27,
         "number of views": 17780,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -2412,14 +2763,6 @@
             "calm"
         ],
         "breed colours": [
-            "red",
-            "white",
-            "black",
-            "blue",
-            "silver",
-            "grey",
-            "black",
-            "white",
             "any"
         ],
         "breed size": "small"
@@ -2432,8 +2775,13 @@
         "number of comments": 11,
         "number of reviews": 16,
         "number of views": 16095,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -2447,8 +2795,8 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
-            "black"
+            "black",
+            "white"
         ],
         "breed size": "large"
     },
@@ -2460,8 +2808,13 @@
         "number of comments": 101,
         "number of reviews": 79,
         "number of views": 97440,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
@@ -2475,9 +2828,9 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
             "black",
-            "blue"
+            "blue",
+            "white"
         ],
         "breed size": "large"
     },
@@ -2489,8 +2842,12 @@
         "number of comments": 2,
         "number of reviews": 1,
         "number of views": 6368,
-        "breed purpose": "ornamental",
-        "comb": "walnut",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "walnut"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "low",
@@ -2513,7 +2870,9 @@
         "number of reviews": 2,
         "number of views": 9315,
         "breed purpose": null,
-        "comb": "walnut",
+        "comb": [
+            "walnut"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -2525,9 +2884,6 @@
             "calm"
         ],
         "breed colours": [
-            "red",
-            "white",
-            "silver",
             "any"
         ],
         "breed size": "large"
@@ -2540,8 +2896,13 @@
         "number of comments": 9,
         "number of reviews": 7,
         "number of views": 12863,
-        "breed purpose": "dual purpose",
-        "comb": "v-shaped",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "v-shaped"
+        ],
         "broodiness": "rare",
         "climate tolerance": "warmer better",
         "egg productivity": "medium",
@@ -2554,10 +2915,8 @@
             "calm"
         ],
         "breed colours": [
-            "white",
             "black",
             "blue",
-            "black",
             "white"
         ],
         "breed size": "large"
@@ -2570,8 +2929,12 @@
         "number of comments": 20,
         "number of reviews": 24,
         "number of views": 28349,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -2584,10 +2947,7 @@
             "calm"
         ],
         "breed colours": [
-            "white",
-            "black",
-            "blue",
-            "silver"
+            "any"
         ],
         "breed size": "large"
     },
@@ -2599,8 +2959,13 @@
         "number of comments": 11,
         "number of reviews": 21,
         "number of views": 34648,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -2614,10 +2979,10 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
-            "blue"
+            "blue",
+            "red",
+            "white"
         ],
         "breed size": "large"
     },
@@ -2629,17 +2994,23 @@
         "number of comments": 9,
         "number of reviews": 6,
         "number of views": 9845,
-        "breed purpose": "eggs",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "rare",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
         "egg size": "small",
         "egg colour": [
+            "gray",
             "white"
         ],
         "breed temperament": null,
         "breed colours": [
+            "lavender",
             "white"
         ],
         "breed size": "small"
@@ -2652,8 +3023,13 @@
         "number of comments": 62,
         "number of reviews": 25,
         "number of views": 30948,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": null,
         "egg productivity": "medium",
@@ -2675,8 +3051,12 @@
         "number of comments": 198,
         "number of reviews": 185,
         "number of views": 89913,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -2691,12 +3071,12 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
             "blue",
+            "brown",
+            "red",
             "silver",
-            "brown"
+            "white"
         ],
         "breed size": "large"
     },
@@ -2708,8 +3088,12 @@
         "number of comments": null,
         "number of reviews": 5,
         "number of views": 11088,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -2723,12 +3107,12 @@
             "docile"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
             "blue",
+            "brown",
+            "red",
             "silver",
-            "brown"
+            "white"
         ],
         "breed size": "small"
     },
@@ -2740,15 +3124,16 @@
         "number of comments": 11,
         "number of reviews": 6,
         "number of views": 36735,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": null,
-        "egg size": [
-            "large",
-            "medium"
-        ],
+        "egg size": "large",
         "egg colour": [
             "brown"
         ],
@@ -2757,8 +3142,9 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
-            "silver"
+            "brown",
+            "silver",
+            "white"
         ],
         "breed size": "large"
     },
@@ -2770,7 +3156,9 @@
         "number of comments": 48,
         "number of reviews": 8,
         "number of views": 22570,
-        "breed purpose": "ornamental",
+        "breed purpose": [
+            "ornamental"
+        ],
         "comb": null,
         "broodiness": "average",
         "climate tolerance": "warmer better",
@@ -2783,9 +3171,6 @@
             "agressive"
         ],
         "breed colours": [
-            "red",
-            "white",
-            "black",
             "any"
         ],
         "breed size": "large"
@@ -2798,8 +3183,13 @@
         "number of comments": 168,
         "number of reviews": 132,
         "number of views": 112711,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
@@ -2812,11 +3202,6 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
-            "black",
-            "silver",
-            "black",
-            "white",
             "any"
         ],
         "breed size": "large"
@@ -2829,8 +3214,12 @@
         "number of comments": 10,
         "number of reviews": 10,
         "number of views": 25089,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "warmer better",
         "egg productivity": "high",
@@ -2845,10 +3234,10 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
-            "blue"
+            "blue",
+            "red",
+            "white"
         ],
         "breed size": "large"
     },
@@ -2879,8 +3268,12 @@
         "number of comments": 24,
         "number of reviews": 17,
         "number of views": 18315,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "warmer better",
         "egg productivity": "low",
@@ -2893,11 +3286,13 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
             "blue",
-            "silver"
+            "brown",
+            "gold",
+            "red",
+            "silver",
+            "white"
         ],
         "breed size": "small"
     },
@@ -2909,14 +3304,15 @@
         "number of comments": 1,
         "number of reviews": 4,
         "number of views": 9921,
-        "breed purpose": "brooding",
-        "comb": "single",
+        "breed purpose": [
+            "brooding"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": null,
         "climate tolerance": "any",
-        "egg productivity": [
-            "medium",
-            "low"
-        ],
+        "egg productivity": "medium",
         "egg size": "small",
         "egg colour": [
             "white"
@@ -2935,8 +3331,13 @@
         "number of comments": 48,
         "number of reviews": 46,
         "number of views": 43419,
-        "breed purpose": "dual purpose",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "low",
@@ -2950,11 +3351,11 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
             "blue",
-            "silver"
+            "red",
+            "silver",
+            "white"
         ],
         "breed size": "large"
     },
@@ -2966,8 +3367,13 @@
         "number of comments": 13,
         "number of reviews": 15,
         "number of views": 13164,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -2990,8 +3396,13 @@
         "number of comments": 55,
         "number of reviews": 64,
         "number of views": 51841,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -3017,8 +3428,13 @@
         "number of comments": 5,
         "number of reviews": 4,
         "number of views": 5680,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": null,
         "climate tolerance": null,
         "egg productivity": "medium",
@@ -3038,8 +3454,13 @@
         "number of comments": 1,
         "number of reviews": 1,
         "number of views": 3674,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": null,
         "climate tolerance": "any",
         "egg productivity": null,
@@ -3061,8 +3482,12 @@
         "number of comments": 18,
         "number of reviews": 7,
         "number of views": 25320,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -3087,8 +3512,12 @@
         "number of comments": 14,
         "number of reviews": 7,
         "number of views": 23437,
-        "breed purpose": "ornamental",
-        "comb": "pea",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "warmer better",
         "egg productivity": "low",
@@ -3110,7 +3539,9 @@
         "number of comments": 1,
         "number of reviews": null,
         "number of views": 1726,
-        "breed purpose": "ornamental",
+        "breed purpose": [
+            "ornamental"
+        ],
         "comb": [
             "pea",
             "single"
@@ -3126,10 +3557,11 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
-            "silver"
+            "gold",
+            "red",
+            "silver",
+            "white"
         ],
         "breed size": "small"
     },
@@ -3141,8 +3573,12 @@
         "number of comments": null,
         "number of reviews": null,
         "number of views": 846,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "colder better",
         "egg productivity": null,
@@ -3155,10 +3591,10 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
-            "blue"
+            "blue",
+            "red",
+            "white"
         ],
         "breed size": "small"
     },
@@ -3170,8 +3606,12 @@
         "number of comments": 97,
         "number of reviews": 81,
         "number of views": 69467,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -3195,8 +3635,12 @@
         "number of comments": 34,
         "number of reviews": 9,
         "number of views": 57831,
-        "breed purpose": "eggs",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -3216,8 +3660,13 @@
         "number of comments": 704,
         "number of reviews": 520,
         "number of views": 142583,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -3231,9 +3680,9 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
             "black",
-            "blue"
+            "blue",
+            "white"
         ],
         "breed size": "large"
     },
@@ -3245,8 +3694,13 @@
         "number of comments": 23,
         "number of reviews": 22,
         "number of views": 28107,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "colder better",
         "egg productivity": "high",
@@ -3255,7 +3709,9 @@
             "brown"
         ],
         "breed temperament": null,
-        "breed colours": null,
+        "breed colours": [
+            "brown"
+        ],
         "breed size": "large"
     },
     {
@@ -3266,8 +3722,13 @@
         "number of comments": 7,
         "number of reviews": 4,
         "number of views": 7482,
-        "breed purpose": "dual purpose",
-        "comb": "v-shaped",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "v-shaped"
+        ],
         "broodiness": null,
         "climate tolerance": "colder better",
         "egg productivity": "medium",
@@ -3287,14 +3748,17 @@
         "number of comments": 6,
         "number of reviews": 5,
         "number of views": 22848,
-        "breed purpose": "eggs",
+        "breed purpose": [
+            "eggs"
+        ],
         "comb": null,
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
         "egg size": "medium",
         "egg colour": [
-            "brown"
+            "brown",
+            "red"
         ],
         "breed temperament": [
             "agressive"
@@ -3312,8 +3776,12 @@
         "number of comments": 28,
         "number of reviews": 24,
         "number of views": 29425,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "warmer better",
         "egg productivity": "low",
@@ -3326,11 +3794,12 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
             "blue",
-            "silver"
+            "gold",
+            "red",
+            "silver",
+            "white"
         ],
         "breed size": "large"
     },
@@ -3342,8 +3811,13 @@
         "number of comments": 4,
         "number of reviews": null,
         "number of views": 5717,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": null,
         "climate tolerance": "warmer better",
         "egg productivity": null,
@@ -3357,9 +3831,9 @@
             "friendly"
         ],
         "breed colours": [
+            "black",
             "red",
-            "white",
-            "black"
+            "white"
         ],
         "breed size": "medium"
     },
@@ -3371,8 +3845,13 @@
         "number of comments": 214,
         "number of reviews": 269,
         "number of views": 82998,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -3385,11 +3864,11 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
             "blue",
-            "silver"
+            "red",
+            "silver",
+            "white"
         ],
         "breed size": "large"
     },
@@ -3401,8 +3880,12 @@
         "number of comments": 171,
         "number of reviews": 135,
         "number of views": 76114,
-        "breed purpose": "ornamental",
-        "comb": "v-shaped",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "v-shaped"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -3416,11 +3899,10 @@
             "calm"
         ],
         "breed colours": [
-            "white",
             "black",
             "blue",
+            "gold",
             "silver",
-            "black",
             "white"
         ],
         "breed size": "large"
@@ -3433,8 +3915,12 @@
         "number of comments": 7,
         "number of reviews": 7,
         "number of views": 20587,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "warmer better",
         "egg productivity": "medium",
@@ -3458,8 +3944,13 @@
         "number of comments": 20,
         "number of reviews": 39,
         "number of views": 23375,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "warmer better",
         "egg productivity": "medium",
@@ -3486,7 +3977,9 @@
         "number of comments": 2,
         "number of reviews": 1,
         "number of views": 8072,
-        "breed purpose": "eggs",
+        "breed purpose": [
+            "eggs"
+        ],
         "comb": null,
         "broodiness": null,
         "climate tolerance": null,
@@ -3497,8 +3990,8 @@
         ],
         "breed temperament": null,
         "breed colours": [
-            "red",
             "black",
+            "red",
             "silver"
         ],
         "breed size": "large"
@@ -3511,8 +4004,12 @@
         "number of comments": 1,
         "number of reviews": 3,
         "number of views": 4879,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": null,
         "climate tolerance": "colder better",
         "egg productivity": "high",
@@ -3536,8 +4033,12 @@
         "number of comments": 7,
         "number of reviews": 4,
         "number of views": 8404,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "low",
@@ -3580,8 +4081,12 @@
         "number of comments": 162,
         "number of reviews": 82,
         "number of views": 110319,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -3624,8 +4129,12 @@
         "number of comments": 5,
         "number of reviews": 2,
         "number of views": 3833,
-        "breed purpose": "ornamental",
-        "comb": "rose",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "rose"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -3645,8 +4154,13 @@
         "number of comments": 320,
         "number of reviews": 313,
         "number of views": 127255,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "colder better",
         "egg productivity": "high",
@@ -3672,8 +4186,12 @@
         "number of comments": 6,
         "number of reviews": 13,
         "number of views": 17717,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": null,
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -3695,8 +4213,13 @@
         "number of comments": 8,
         "number of reviews": 6,
         "number of views": 27694,
-        "breed purpose": "dual purpose",
-        "comb": "rose",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "rose"
+        ],
         "broodiness": "average",
         "climate tolerance": "colder better",
         "egg productivity": "high",
@@ -3723,8 +4246,13 @@
         "number of comments": 10,
         "number of reviews": 5,
         "number of views": 8811,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -3737,7 +4265,6 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
             "any"
         ],
         "breed size": "large"
@@ -3750,8 +4277,12 @@
         "number of comments": 7,
         "number of reviews": 12,
         "number of views": 10240,
-        "breed purpose": "ornamental",
-        "comb": "rose",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "rose"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "low",
@@ -3765,10 +4296,11 @@
             "docile"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
-            "blue"
+            "blue",
+            "brown",
+            "red",
+            "white"
         ],
         "breed size": "small"
     },
@@ -3780,8 +4312,13 @@
         "number of comments": 7,
         "number of reviews": 1,
         "number of views": 5299,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": null,
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -3803,8 +4340,13 @@
         "number of comments": 18,
         "number of reviews": 15,
         "number of views": 56323,
-        "breed purpose": "dual purpose",
-        "comb": "walnut",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "walnut"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -3818,8 +4360,8 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
-            "black"
+            "black",
+            "white"
         ],
         "breed size": "large"
     },
@@ -3831,8 +4373,13 @@
         "number of comments": 5,
         "number of reviews": 5,
         "number of views": 16451,
-        "breed purpose": "dual purpose",
-        "comb": "buttercup",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "buttercup"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -3854,8 +4401,13 @@
         "number of comments": 22,
         "number of reviews": 14,
         "number of views": 17700,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -3882,7 +4434,9 @@
         "number of reviews": 2,
         "number of views": 81683,
         "breed purpose": null,
-        "comb": "single",
+        "comb": [
+            "single"
+        ],
         "broodiness": null,
         "climate tolerance": "warmer better",
         "egg productivity": "high",
@@ -3904,8 +4458,12 @@
         "number of comments": 49,
         "number of reviews": 51,
         "number of views": 33508,
-        "breed purpose": "ornamental",
-        "comb": "rose",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "rose"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "low",
@@ -3919,6 +4477,7 @@
             "friendly"
         ],
         "breed colours": [
+            "gold",
             "silver"
         ],
         "breed size": "small"
@@ -3931,8 +4490,12 @@
         "number of comments": 60,
         "number of reviews": 47,
         "number of views": 65031,
-        "breed purpose": "ornamental",
-        "comb": "single",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "warmer better",
         "egg productivity": "low",
@@ -3946,10 +4509,6 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
-            "black",
-            "blue",
             "any"
         ],
         "breed size": "small"
@@ -3962,14 +4521,15 @@
         "number of comments": 23,
         "number of reviews": 18,
         "number of views": 34881,
-        "breed purpose": "ornamental",
-        "comb": "walnut",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "walnut"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
-        "egg productivity": [
-            "medium",
-            "low"
-        ],
+        "egg productivity": "medium",
         "egg size": "small",
         "egg colour": [
             "brown"
@@ -3980,9 +4540,10 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
             "black",
-            "blue"
+            "blue",
+            "lavender",
+            "white"
         ],
         "breed size": "small"
     },
@@ -3994,8 +4555,12 @@
         "number of comments": 26,
         "number of reviews": 26,
         "number of views": 35005,
-        "breed purpose": "ornamental",
-        "comb": "buttercup",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "buttercup"
+        ],
         "broodiness": "rare",
         "climate tolerance": "warmer better",
         "egg productivity": "low",
@@ -4008,10 +4573,7 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "black",
-            "yellow",
-            "orange"
+            "any"
         ],
         "breed size": "large"
     },
@@ -4023,8 +4585,13 @@
         "number of comments": null,
         "number of reviews": null,
         "number of views": 4362,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -4036,6 +4603,7 @@
             "calm"
         ],
         "breed colours": [
+            "gold",
             "silver"
         ],
         "breed size": null
@@ -4048,8 +4616,12 @@
         "number of comments": 416,
         "number of reviews": 285,
         "number of views": 129995,
-        "breed purpose": "ornamental",
-        "comb": "walnut",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "walnut"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -4064,10 +4636,6 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
-            "black",
-            "blue",
-            "grey",
             "any"
         ],
         "breed size": "small"
@@ -4080,8 +4648,13 @@
         "number of comments": 4,
         "number of reviews": null,
         "number of views": 9135,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": null,
@@ -4094,9 +4667,10 @@
             "docile"
         ],
         "breed colours": [
+            "brown",
             "red",
-            "white",
-            "silver"
+            "silver",
+            "white"
         ],
         "breed size": "large"
     },
@@ -4108,8 +4682,12 @@
         "number of comments": 9,
         "number of reviews": 9,
         "number of views": 19374,
-        "breed purpose": "ornamental",
-        "comb": "walnut",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "walnut"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "low",
@@ -4122,9 +4700,10 @@
             "docile"
         ],
         "breed colours": [
-            "white",
             "black",
-            "blue"
+            "blue",
+            "gray",
+            "white"
         ],
         "breed size": "small"
     },
@@ -4136,8 +4715,12 @@
         "number of comments": 1,
         "number of reviews": null,
         "number of views": 5728,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "colder better",
         "egg productivity": "high",
@@ -4147,6 +4730,7 @@
             "calm"
         ],
         "breed colours": [
+            "gray",
             "red",
             "white"
         ],
@@ -4160,8 +4744,13 @@
         "number of comments": 98,
         "number of reviews": 152,
         "number of views": 50013,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -4175,8 +4764,8 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "black"
+            "black",
+            "red"
         ],
         "breed size": "large"
     },
@@ -4188,8 +4777,12 @@
         "number of comments": 3,
         "number of reviews": 5,
         "number of views": 11930,
-        "breed purpose": "meat",
-        "comb": "single",
+        "breed purpose": [
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -4212,8 +4805,12 @@
         "number of comments": 26,
         "number of reviews": 17,
         "number of views": 24544,
-        "breed purpose": "ornamental",
-        "comb": "v-shaped",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "v-shaped"
+        ],
         "broodiness": "rare",
         "climate tolerance": "warmer better",
         "egg productivity": "low",
@@ -4227,8 +4824,8 @@
             "friendly"
         ],
         "breed colours": [
-            "white",
-            "blue"
+            "blue",
+            "white"
         ],
         "breed size": "large"
     },
@@ -4240,8 +4837,12 @@
         "number of comments": 31,
         "number of reviews": 29,
         "number of views": 30787,
-        "breed purpose": "ornamental",
-        "comb": "pea",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "average",
         "climate tolerance": "any",
         "egg productivity": "low",
@@ -4253,7 +4854,8 @@
             "agressive"
         ],
         "breed colours": [
-            "black"
+            "black",
+            "tan"
         ],
         "breed size": "large"
     },
@@ -4265,8 +4867,12 @@
         "number of comments": 30,
         "number of reviews": 3,
         "number of views": 23470,
-        "breed purpose": "eggs",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "rare",
         "climate tolerance": "colder better",
         "egg productivity": "high",
@@ -4276,8 +4882,8 @@
         ],
         "breed temperament": null,
         "breed colours": [
-            "white",
-            "black"
+            "black",
+            "white"
         ],
         "breed size": "large"
     },
@@ -4289,8 +4895,13 @@
         "number of comments": 126,
         "number of reviews": 99,
         "number of views": 72981,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "any",
         "egg productivity": "high",
@@ -4314,7 +4925,9 @@
             "eggs",
             "ornamental"
         ],
-        "comb": "single",
+        "comb": [
+            "single"
+        ],
         "broodiness": null,
         "climate tolerance": null,
         "egg productivity": "high",
@@ -4339,7 +4952,10 @@
         "number of comments": 34,
         "number of reviews": 21,
         "number of views": 41438,
-        "breed purpose": "dual purpose",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
         "comb": null,
         "broodiness": null,
         "climate tolerance": "colder better",
@@ -4380,8 +4996,13 @@
         "number of comments": 11,
         "number of reviews": 7,
         "number of views": 18006,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "any",
         "egg productivity": "medium",
@@ -4394,9 +5015,7 @@
             "docile"
         ],
         "breed colours": [
-            "white",
-            "black",
-            "blue"
+            "any"
         ],
         "breed size": "small"
     },
@@ -4408,8 +5027,12 @@
         "number of comments": 8,
         "number of reviews": 2,
         "number of views": 15635,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": null,
         "climate tolerance": null,
         "egg productivity": "high",
@@ -4431,8 +5054,13 @@
         "number of comments": 85,
         "number of reviews": 97,
         "number of views": 113223,
-        "breed purpose": "dual purpose",
-        "comb": "single",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
@@ -4477,8 +5105,12 @@
         "number of comments": null,
         "number of reviews": 7,
         "number of views": 13245,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "warmer better",
         "egg productivity": "medium",
@@ -4491,9 +5123,12 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
-            "white",
             "black",
+            "gray",
+            "green",
+            "red",
+            "tan",
+            "white",
             "brown"
         ],
         "breed size": "large"
@@ -4506,8 +5141,12 @@
         "number of comments": 22,
         "number of reviews": 8,
         "number of views": 22339,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "rare",
         "climate tolerance": "warmer better",
         "egg productivity": "high",
@@ -4531,15 +5170,16 @@
         "number of comments": 6,
         "number of reviews": 1,
         "number of views": 17384,
-        "breed purpose": "eggs",
-        "comb": "pea",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "pea"
+        ],
         "broodiness": "poor",
         "climate tolerance": "colder better",
         "egg productivity": "high",
-        "egg size": [
-            "large",
-            "medium"
-        ],
+        "egg size": "large",
         "egg colour": [
             "blue"
         ],
@@ -4557,15 +5197,16 @@
         "number of comments": null,
         "number of reviews": 1,
         "number of views": 10570,
-        "breed purpose": "eggs",
-        "comb": "single",
+        "breed purpose": [
+            "eggs"
+        ],
+        "comb": [
+            "single"
+        ],
         "broodiness": "poor",
         "climate tolerance": "colder better",
         "egg productivity": "high",
-        "egg size": [
-            "large",
-            "medium"
-        ],
+        "egg size": "large",
         "egg colour": [
             "green",
             "olive"
@@ -4586,8 +5227,13 @@
         "number of comments": 329,
         "number of reviews": 252,
         "number of views": 116764,
-        "breed purpose": "dual purpose",
-        "comb": "rose",
+        "breed purpose": [
+            "eggs",
+            "meat"
+        ],
+        "comb": [
+            "rose"
+        ],
         "broodiness": "frequent",
         "climate tolerance": "colder better",
         "egg productivity": "medium",
@@ -4601,8 +5247,9 @@
             "friendly"
         ],
         "breed colours": [
-            "red",
             "blue",
+            "gold",
+            "red",
             "silver"
         ],
         "breed size": "large"
@@ -4615,8 +5262,12 @@
         "number of comments": 8,
         "number of reviews": 7,
         "number of views": 14146,
-        "breed purpose": "ornamental",
-        "comb": "walnut",
+        "breed purpose": [
+            "ornamental"
+        ],
+        "comb": [
+            "walnut"
+        ],
         "broodiness": "average",
         "climate tolerance": "warmer better",
         "egg productivity": "low",
