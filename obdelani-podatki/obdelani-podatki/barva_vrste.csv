@@ -1,14 +1,16 @@
 breed,breed colour
 Aloha Chickens,
 Altsteirer Styrian Hen,black
-Altsteirer Styrian Hen,black
 Altsteirer Styrian Hen,red
 Altsteirer Styrian Hen,white
-Altsteirer Styrian Hen,white
+Amber Star Hybrid,gold
 Amber Star Hybrid,white
 Amber Whites,white
 Ameraucana,black
 Ameraucana,blue
+Ameraucana,brown
+Ameraucana,gold
+Ameraucana,lavender
 Ameraucana,red
 Ameraucana,salmon
 Ameraucana,silver
@@ -22,17 +24,16 @@ Ancona,
 Andalusian,black
 Andalusian,blue
 Appenzeller Spitzhauben,black
+Appenzeller Spitzhauben,gold
 Appenzeller Spitzhauben,red
 Appenzeller Spitzhauben,silver
 Arau-ameraucana,black
 Arau-ameraucana,blue
+Arau-ameraucana,gold
 Arau-ameraucana,red
 Arau-ameraucana,silver
 Arau-ameraucana,white
 Araucana,any
-Araucana,black
-Araucana,silver
-Araucana,white
 Aseel,black
 Aseel,blue
 Aseel,brown
@@ -40,6 +41,7 @@ Aseel,red
 Aseel,white
 Australorp,black
 Australorp,blue
+Australorp,tan
 Australorp,white
 Ayam Cemani,black
 Bantam,blue
@@ -58,13 +60,12 @@ Barred Rock,red
 Barred Rock,white
 Belgian Cuckoo Malines,
 Belgian D' Anver,black
-Belgian D' Anver,black
 Belgian D' Anver,blue
 Belgian D' Anver,porcelain
 Belgian D' Anver,white
-Belgian D' Anver,white
 Belgian D' Uccle,black
 Belgian D' Uccle,blue
+Belgian D' Uccle,gold
 Belgian D' Uccle,porcelain
 Belgian D' Uccle,white
 Belgian Watermaal,
@@ -78,27 +79,30 @@ Booted,black
 Booted,porcelain
 Booted,white
 Brabanter,black
-Brabanter,black
 Brabanter,blue
 Brabanter,cream
+Brabanter,gold
+Brabanter,lavender
 Brabanter,silver
-Brabanter,white
 Brabanter,white
 Brabanter,yellow
 Brahma,black
 Brahma,blue
 Brahma,brown
+Brahma,gold
 Brahma,white
 Brahma - Bantam,brown
 Bredas,black
 Bredas,blue
 British Tailed Araucana,black
-British Tailed Araucana,black
 British Tailed Araucana,blue
+British Tailed Araucana,gold
+British Tailed Araucana,lavender
 British Tailed Araucana,red
 British Tailed Araucana,silver
 British Tailed Araucana,white
-British Tailed Araucana,white
+Brown Leghorn,brown
+Brown Leghorn,gold
 Brown Leghorn,orange
 Brown Leghorn,red
 Buckeye,
@@ -109,6 +113,7 @@ Buff Orpington X Easter Egger,red
 Buff Orpington X Gold Laced Wyandotte,
 California Grey,black
 California Grey,white
+Campine,gold
 Campine,silver
 Carolina Blue Sex-link Ee,blue
 Catalana,black
@@ -122,6 +127,7 @@ Cochin,red
 Cochin,white
 Colombian Rock,
 Columbian Blacktails,black
+Columbian Blacktails,brown
 Cornish,blue
 Cornish,brown
 Cornish,red
@@ -141,38 +147,29 @@ Cuckoo Maran,black
 Cuckoo Maran,silver
 Cuckoo Maran,white
 Delaware,any
-Delaware,red
-Delaware,silver
 Delaware Blue Hen,black
 Delaware Blue Hen,blue
 Derbyshire Redcap,
-Dominique,black
-Dominique,red
-Dominique,white
+Dominique,any
 Dorking,black
+Dorking,gray
 Dorking,red
 Dorking,silver
 Dorking,white
-Dorking,white
 Dutch,black
 Dutch,blue
+Dutch,brown
 Dutch,cream
+Dutch,lavender
 Dutch,silver
 Dutch,white
+East Frisian Gull - An Old World Landrace,
 Easter Egger Bantam,any
 Easter Eggers,any
 Euskal Oiloa - Marraduna Basque,
 Favacauna,
 Faverolles,any
-Faverolles,black
-Faverolles,black
-Faverolles,blue
-Faverolles,salmon
-Faverolles,white
-Faverolles,white
 Fayoumis,any
-Fayoumis,black
-Fayoumis,silver
 Flarry Eyed Gray,
 Freedom Ranger,
 Frizzle,any
@@ -190,6 +187,7 @@ Golden Sex Link,
 Greek,
 Green Queen,any
 Hamburg,black
+Hamburg,gold
 Hamburg,silver
 Hamburg,white
 Hmong Chickens ,any
@@ -201,14 +199,6 @@ Icelandic Or Viking Hen,any
 Iowa Blue,silver
 Ixworth,white
 Japanese,any
-Japanese,black
-Japanese,black
-Japanese,blue
-Japanese,grey
-Japanese,red
-Japanese,silver
-Japanese,white
-Japanese,white
 Java,black
 Java,white
 Jersey Giant,black
@@ -216,22 +206,15 @@ Jersey Giant,blue
 Jersey Giant,white
 Ko Shamo,
 KraienkÃ¶ppe,any
-KraienkÃ¶ppe,red
-KraienkÃ¶ppe,silver
-KraienkÃ¶ppe,white
-La Fleche,black
 La Fleche,black
 La Fleche,blue
 La Fleche,white
-La Fleche,white
-Lakenvelder,black
-Lakenvelder,blue
-Lakenvelder,silver
-Lakenvelder,white
+Lakenvelder,any
 Langshan,black
 Langshan,blue
 Langshan,red
 Langshan,white
+Lavender Orpington Bantam,lavender
 Lavender Orpington Bantam,white
 Legbar,
 Leghorn,black
@@ -246,18 +229,11 @@ Leghorn - Bantam,brown
 Leghorn - Bantam,red
 Leghorn - Bantam,silver
 Leghorn - Bantam,white
+Lohman Brown,brown
 Lohman Brown,silver
 Lohman Brown,white
 Malay,any
-Malay,black
-Malay,red
-Malay,white
 Marans,any
-Marans,black
-Marans,black
-Marans,silver
-Marans,white
-Marans,white
 Minorca,black
 Minorca,blue
 Minorca,red
@@ -265,6 +241,8 @@ Minorca,white
 Mixing Chickens,
 Modern Game,black
 Modern Game,blue
+Modern Game,brown
+Modern Game,gold
 Modern Game,red
 Modern Game,silver
 Modern Game,white
@@ -281,6 +259,7 @@ Northern California Poulet Bleu,white
 Norwegian Jaerhon,brown
 O Shamo,
 Ohiki,black
+Ohiki,gold
 Ohiki,red
 Ohiki,silver
 Ohiki,white
@@ -293,11 +272,12 @@ Olive Egger,
 Orpington,black
 Orpington,blue
 Orpington,white
-Partridge Plymouth Rock,
+Partridge Plymouth Rock,brown
 Pavlovskaja,any
 Penedesenca,black
 Phoenix,black
 Phoenix,blue
+Phoenix,gold
 Phoenix,red
 Phoenix,silver
 Phoenix,white
@@ -310,10 +290,9 @@ Plymouth Rock,red
 Plymouth Rock,silver
 Plymouth Rock,white
 Polish,black
-Polish,black
 Polish,blue
+Polish,gold
 Polish,silver
-Polish,white
 Polish,white
 Porcelain D' Uccle Bantam,porcelain
 Production,red
@@ -331,9 +310,9 @@ Rhode Island Red,red
 Rhode Island Red Bantam,red
 Rhode Island White,white
 Rhodebar,any
-Rhodebar,red
 Rosecomb,black
 Rosecomb,blue
+Rosecomb,brown
 Rosecomb,red
 Rosecomb,white
 Russian Crested,any
@@ -343,31 +322,26 @@ Sagitta Chiken,
 Salmon Favorelle,blue
 Salmon Favorelle,salmon
 Sapphire Gem ,blue
+Sebright,gold
 Sebright,silver
 Serama,any
-Serama,black
-Serama,blue
-Serama,red
-Serama,white
 Showgirl,black
 Showgirl,blue
+Showgirl,lavender
 Showgirl,white
-Sicilian Buttercup,black
-Sicilian Buttercup,orange
-Sicilian Buttercup,red
-Sicilian Buttercup,yellow
+Sicilian Buttercup,any
+Sienna Star,gold
 Sienna Star,silver
 Silkie,any
-Silkie,black
-Silkie,blue
-Silkie,grey
-Silkie,white
+Silver Sussex,brown
 Silver Sussex,red
 Silver Sussex,silver
 Silver Sussex,white
 Sizzle,black
 Sizzle,blue
+Sizzle,gray
 Sizzle,white
+Smaaland,gray
 Smaaland,red
 Smaaland,white
 Star,black
@@ -376,26 +350,29 @@ Sulmtaler,
 Sultan,blue
 Sultan,white
 Sumatra,black
+Sumatra,tan
 Super Blue Egg Layer,black
 Super Blue Egg Layer,white
 Sussex,
 Svart Hona,black
 Swedish Flower Chicken,
 Transylvanian Naked Neck ,
-Vorwerk,black
-Vorwerk,blue
-Vorwerk,white
+Vorwerk,any
 Welbar,
 Welsummer,red
 White Bresse,
 White Faced Black Spanish,black
 White Faced Black Spanish,brown
+White Faced Black Spanish,gray
+White Faced Black Spanish,green
 White Faced Black Spanish,red
+White Faced Black Spanish,tan
 White Faced Black Spanish,white
 White Star Hybrid,white
 Whiting True Blue,
 Whiting True Green,red
 Wyandotte,blue
+Wyandotte,gold
 Wyandotte,red
 Wyandotte,silver
 Yokohama,red
