@@ -13,6 +13,7 @@ vzorec_bloka = re.compile(
     flags=re.DOTALL
 )
 
+#Vzorci v bloku
 vzorec_putke = re.compile(
     r'<div class="structItem-title">\s*?'
     r'<a href="(?P<link>.*?)" class="" data-tp-primary="on">(?P<breed>.*?)</a>'
@@ -65,7 +66,7 @@ vzorec_ratings = re.compile(
 def izloci_podatke_putke(blok):
     '''Funkcija iz bloga izlušči podatke o kokoši.'''
     putka = re.search(vzorec_putke, blok).groupdict()
-    vrsta = string.capwords(putka['breed'].strip().replace('?','').replace('&#039;', '\' ' ).replace('&quot;',''))
+    vrsta = string.capwords(putka['breed'].strip().replace('?','').replace('&#039;', '\' ' ).replace('&quot;','').replace('ÃƒÂ¶', 'oe'))
     ok_vrsta = odstrani_reci_v_oklepajih(vrsta)
     putka['breed'] = ok_vrsta
     putka['link'] = 'https://www.backyardchickens.com' + putka['link']
@@ -125,9 +126,7 @@ def zajemi_putko():
             orodja.shrani_spletno_stran(url, ime_datoteke)
 
 
-############################
-#Vzorci za posamezno putko.#
-############################
+#Vzorci za posamezno kokoš z njene lastne strani.
 
 vzorec_breed_purpose = re.compile(
     r'<dt>Breed Purpose</dt>'
@@ -231,7 +230,7 @@ def podrobno_poglej_putko(vrsta):
     putka = {}
     with open(f'zajete-putke-po-vrstah\\{vrsta}.html', 'r', encoding='utf-8') as d:
         vsebina = d.read()
-        #
+        # Če število ogledov obstaja.
         number_of_views = vzorec_number_of_views.search(vsebina)
         if number_of_views:
             ogledi = number_of_views['number_of_views'].strip()
@@ -239,6 +238,7 @@ def podrobno_poglej_putko(vrsta):
             putka['number of views'] = int(ok_ogledi)
         else:
             putka['number of views'] = None
+        #Če je namen vzreje zabeležen.
         breed_purpose = vzorec_breed_purpose.search(vsebina)
         if breed_purpose:
             namen = breed_purpose['breed_purpose'].strip().lower()
@@ -246,7 +246,7 @@ def podrobno_poglej_putko(vrsta):
             putka['breed purpose'] = ok_namen
         else:
             putka['breed purpose'] = None
-        #
+        #Če so podatki o grebenu zabeleženi.
         comb = vzorec_comb.search(vsebina)
         if comb:
             greben = comb['comb'].strip().lower()
@@ -254,7 +254,7 @@ def podrobno_poglej_putko(vrsta):
             putka['comb'] = ok_greben
         else:
             putka['comb'] = None
-        #
+        #Če je podatek zabeležen.
         broodiness = vzorec_broodiness.search(vsebina)
         if broodiness:
             broody = broodiness['broodiness'].lower()
@@ -262,7 +262,7 @@ def podrobno_poglej_putko(vrsta):
             putka['broodiness'] = ok_broody
         else:
             putka['broodiness'] = None
-        #
+        #Če je podatek o podnebni toleranci zabeležen.
         climate_tolerance = vzorec_climate_tolerance.search(vsebina)
         if climate_tolerance:
             tol = climate_tolerance['climate_tolerance'].strip().lower()
@@ -270,7 +270,7 @@ def podrobno_poglej_putko(vrsta):
             putka['climate tolerance'] = ok_tol
         else:
             putka['climate tolerance'] = None
-        #
+        #Če je podatek zabeležen.
         egg_productivity = vzorec_egg_productivity.search(vsebina)
         if egg_productivity:
             eggs = egg_productivity['egg_productivity'].strip().lower()
@@ -278,7 +278,7 @@ def podrobno_poglej_putko(vrsta):
             putka['egg productivity'] = ok_eggs
         else:
             putka['egg productivity'] = None
-        #
+        #Če je podatek zabeležen.
         egg_size = vzorec_egg_size.search(vsebina)
         if egg_size:
             size = egg_size['egg_size'].strip().lower()
@@ -286,7 +286,7 @@ def podrobno_poglej_putko(vrsta):
             putka['egg size'] = ok_size
         else:
             putka['egg size'] = None
-        #
+        #Če je podatek zabeležen.
         egg_colour = vzorec_egg_colour.search(vsebina)
         if egg_colour:
             barva = egg_colour['egg_colour'].strip().lower()
@@ -294,7 +294,7 @@ def podrobno_poglej_putko(vrsta):
             putka['egg colour'] = ok_barva
         else:
             putka['egg colour'] = None
-        #
+        #Če je podatek zabeležen.
         breed_temperament = vzorec_breed_temperament.search(vsebina)
         if breed_temperament:
             temp = breed_temperament['breed_temperament'].strip().lower()
@@ -302,7 +302,7 @@ def podrobno_poglej_putko(vrsta):
             putka['breed temperament'] = ok_temp
         else:
             putka['breed temperament'] = None
-        #
+        #Če je podatek zabeležen.
         breed_colours = vzorec_breed_colours.search(vsebina)
         if breed_colours:
             barva = breed_colours['breed_colours'].strip().lower()
@@ -310,7 +310,7 @@ def podrobno_poglej_putko(vrsta):
             putka['breed colours'] = ok_barva
         else:
             putka['breed colours'] = None
-        #
+        #Če je podatek zabeležen.
         breed_size = vzorec_breed_size.search(vsebina)
         if breed_size:
             size = breed_size['breed_size'].strip().lower()
@@ -345,7 +345,7 @@ def merge_two_dicts(x, y):
 ###
 
 def izloci_gnezdene_podatke(putke):
-    egg_colour, temperament, breed_colour = [], [], []
+    purpose, egg_colour, temperament, breed_colour, comb = [], [], [], [], []
     for putka in putke:
         if putka['egg colour'] == None:
             putka.pop('egg colour')
@@ -365,10 +365,24 @@ def izloci_gnezdene_podatke(putke):
         else:
             for barva in putka.pop('breed colours'):
                 breed_colour.append({'breed': putka['breed'], 'breed colour': barva})
+        if putka['breed purpose'] == None:
+            putka.pop('breed purpose')
+            purpose.append({'breed': putka['breed'], 'breed purpose': None})
+        else:
+            for namen in putka.pop('breed purpose'):
+                purpose.append({'breed': putka['breed'], 'breed purpose': namen})
+        if putka['comb'] == None:
+            putka.pop('comb')
+            comb.append({'breed': putka['breed'], 'comb': None})
+        else:
+            for greben in putka.pop('comb'):
+                comb.append({'breed': putka['breed'], 'comb': greben})
+    purpose.sort(key=lambda putka: (putka['breed'], putka['breed purpose']))
     egg_colour.sort(key=lambda putka: (putka['breed'], putka['egg colour']))
     temperament.sort(key=lambda putka: (putka['breed'], putka['temperament']))
     breed_colour.sort(key=lambda putka: (putka['breed'], putka['breed colour']))
-    return egg_colour, temperament, breed_colour
+    comb.sort(key=lambda putka: (putka['breed'], putka['comb']))
+    return purpose, egg_colour, temperament, breed_colour, comb
 
   
 # putke = []
@@ -381,15 +395,17 @@ def izloci_gnezdene_podatke(putke):
 #         putke.append(nova_putka)
 # putke.sort(key=lambda putka: putka['breed'])
 # orodja.zapisi_json(putke,'obdelani-podatki\\putke.json')
+
 with open('obdelani-podatki\\putke.json') as d:
     putke = json.load(d)
-
-egg_colour, temperament, breed_colour = izloci_gnezdene_podatke(putke)
+purpose, egg_colour, temperament, breed_colour, comb = izloci_gnezdene_podatke(putke)
 orodja.zapisi_csv(
     putke,
-    ["link", "breed","mark","number of ratings","number of comments","number of reviews","number of views","breed purpose","comb","broodiness","climate tolerance", "egg productivity","egg size","breed size"], 
+    ["link", "breed","mark","number of ratings","number of comments","number of reviews","number of views","broodiness","climate tolerance", "egg productivity","egg size","breed size"], 
     'obdelani-podatki\\putke.csv'
 )
 orodja.zapisi_csv(egg_colour, ['breed', 'egg colour'], 'obdelani-podatki\\barva_jajc.csv')
 orodja.zapisi_csv(temperament, ['breed', 'temperament'], 'obdelani-podatki\\temperament.csv')
 orodja.zapisi_csv(breed_colour, ['breed', 'breed colour'], 'obdelani-podatki\\barva_vrste.csv')
+orodja.zapisi_csv(comb, ['breed', 'comb'], 'obdelani-podatki\\comb.csv')
+orodja.zapisi_csv(purpose, ['breed', 'breed purpose'], 'obdelani-podatki\\purpose.csv')
