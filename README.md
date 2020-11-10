@@ -15,8 +15,8 @@ Za vsako kokošjo vrsto sem zajela:
 - podnebno toleranco,
 - tendenco gnezdenja (sedenja na jajcu in skrbi zanj).
 
-V mapi obdelani-podatki se nahaja json datoteka, kjer so zapisani vsi zajeti podatki za posamezno vrsto kokoši, poleg tega pa so tam še csv datoteke - ena (putke.csv) vsebuje vse razen gnezdenih podatkov za posamezno vrsto. Podatki, kjer več vrednosti pripada isti vrsti (namen vzreje, barva vrste, barva jajc, oblika grebena in temperament), pa so zapisani v svojih csv datotekah.
-Podatke sem zajela s funkcijami, zapisanimi v datoteki zajemi-in-analiziraj-putko.py, uporabila pa sem tudi knjižnici orodja.py in urejanje.py. 
+V mapi `obdelani-podatki` se nahaja json datoteka, kjer so zapisani vsi zajeti podatki za posamezno vrsto kokoši, poleg tega pa so tam še csv datoteke - ena (`putke.csv`) vsebuje vse razen gnezdenih podatkov za posamezno vrsto. Podatki, kjer več vrednosti pripada isti vrsti (namen vzreje, barva vrste, barva jajc, oblika grebena in temperament), pa so zapisani v svojih csv datotekah.
+Podatke sem zajela s funkcijami, zapisanimi v datoteki `zajemi-in-analiziraj-putko.py`, uporabila pa sem tudi knjižnici `orodja.py` in `urejanje.py`. 
 
 ## Hipoteze:
 Hipoteze bom razdelila glede to, ali se nanašajo na kokoši same (torej na lastnosti kokoši) ali na njihovo priljubljenost (torej na odzive uporabnikov te spletne strani nanje).
