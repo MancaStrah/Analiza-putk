@@ -4,7 +4,8 @@
 # tukaj združijo v eno skupno ime za lažjo analizo podatkov)
 
 # Problem je, da na to stran uporabniki sami vnesejo podatke
-# o vrstah, in zato niso konsistentni.
+# o vrstah, zato ti niso konsistentni.
+
 
 
 def uredi_views(ogledi):
